@@ -61,3 +61,7 @@ style = "github-dark"
   name = "生活"
   weight = 2
   url = "life/"
+[[menu.main]]
+  name = "電玩"
+  weight = 3
+  url = "video_game/"

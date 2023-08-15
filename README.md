@@ -2,6 +2,7 @@
 
 ### 啟動
 `hugo server --bind=0.0.0.0 --baseURL=http://0.0.0.0:1313`
+`hugo server --bind=192.168.68.102 --baseURL=http://192.168.68.102:1313`
 
 ### 啟動「檢視草稿網誌」
 `hugo server -D --bind=0.0.0.0 --baseURL=http://0.0.0.0:1313`

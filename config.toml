@@ -13,7 +13,7 @@ style = "github-dark"
 
 [params]
   author = "Mai"
-  info = "我的身分... 全端工程師、資料工程師、數據分析師、基督徒、男朋友"
+  info = "「為甚麼想睡覺？」因為我熬夜做了這個 Blog 💤"
   description = "John Doe's personal website"
   keywords = "blog,developer,personal"
   avatarurl = "images/avatar.png"
@@ -45,17 +45,12 @@ style = "github-dark"
   name = "Github"
   icon = "fa fa-github fa-2x"
   weight = 1
-  url = "https://github.com/johndoe/"
+  url = "https://github.com/fangmai001"
 [[params.social]]
-  name = "Gitlab"
-  icon = "fa fa-gitlab fa-2x"
-  weight = 2
-  url = "https://gitlab.com/johndoe/"
-[[params.social]]
-  name = "Twitter"
-  icon = "fa fa-twitter fa-2x"
+  name = "Medium"
+  icon = "fa fa-medium fa-2x"
   weight = 3
-  url = "https://twitter.com/johndoe/"
+  url = "https://medium.com/@fangmai"
 
 # Menu links
 [[menu.main]]

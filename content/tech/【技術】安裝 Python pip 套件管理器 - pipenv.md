@@ -1,7 +1,7 @@
 ---
 title: "【技術】pipenv pip 套件管理器"
 date: 2023-09-04T14:29:23+08:00
-draft: true
+draft: false
 ---
 
 ## 前言

@@ -1,5 +1,5 @@
 ---
-title: "【Minecraft】Server 架設"
+title: "【Minecraft】Server 架設心得"
 date: 2023-04-06T00:59:50+08:00
 draft: false
 ---

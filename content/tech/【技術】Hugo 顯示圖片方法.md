@@ -1,7 +1,7 @@
 ---
 title: "【技術】Hugo 顯示圖片方法"
 date: 2023-09-24T12:11:24+08:00
-draft: true
+draft: false
 ---
 
 ### 說明

@@ -1,7 +1,7 @@
 ---
 title: "【技術】社區固定 IP 申請心得"
 date: 2023-09-24T10:52:33+08:00
-draft: true
+draft: false
 ---
 
 # 緣起

@@ -1,7 +1,7 @@
 ---
-title: "【Minecraft】Server "
+title: "【Minecraft】Server 對外連線設定"
 date: 2023-09-24T10:59:29+08:00
-draft: true
+draft: false
 ---
 
 ## 從單人遊戲中，讓玩家加入

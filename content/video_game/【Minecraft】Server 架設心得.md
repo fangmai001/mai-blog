@@ -1,76 +1,44 @@
 ---
-title: "【Minecraft】Server 架設心得"
+title: "【Minecraft】Server 架設"
 date: 2023-04-06T00:59:50+08:00
 draft: false
 ---
 
-# 將 minecraft 設定為多人連線
----
+## Forge 版本
 
-## 從單人遊戲中，讓玩家加入
+- [需安裝 Java](https://www.java.com/zh-TW/download/windows_offline.jsp)
+- [47.1.43](https://files.minecraftforge.net/net/minecraftforge/forge/)
+- 安裝 Forge 後，還要啟動過，讓 Minecraft 目錄中出現 mod 資料夾。
 
-直接在遊戲中，開啟「開放遊戲」的選項。
+## 需安裝模組
 
-缺點就是，必須開房人在遊戲中，才可以玩。少了開房人，遊戲就不能玩。
+- [framework-forge-1.20.1-0.6.6](https://www.curseforge.com/minecraft/mc-mods/framework/files/4613816)
+- [corpse-1.20.1-1.0.5](https://www.curseforge.com/minecraft/mc-mods/corpse/files/4678972)
+- [dynamiclights-1.20.1.0](https://www.curseforge.com/minecraft/mc-mods/dynamic-lights/files/4588517)
+- [MouseTweaks-fabric-mc1.20-2.25](https://www.curseforge.com/minecraft/mc-mods/mouse-tweaks/files/4581240)
+- [appleskin-forge-mc1.20.1-2.5.0](https://www.curseforge.com/minecraft/mc-mods/appleskin/files/4605078)
+- [balm-forge-1.20-7.0.7](https://www.curseforge.com/minecraft/mc-mods/balm/files/4670591)
+- [cfm-forge-1.20.1-7.0.0-pre36](https://www.curseforge.com/minecraft/mc-mods/mrcrayfish-furniture-mod/files/4602980)
+- [entityculling-forge-1.6.2-mc1.20](https://www.curseforge.com/minecraft/mc-mods/entityculling/files/4573621)
+- [FastLeafDecay-31](https://www.curseforge.com/minecraft/mc-mods/fast-leaf-decay/files/4620069)
+- [mcw-bridges-2.1.1-mc1.20.1forge](https://www.curseforge.com/minecraft/mc-mods/macaws-bridges/files/4605466)
+- [waystones-forge-1.20-14.0.1](https://www.curseforge.com/minecraft/mc-mods/waystones/files/4635315)
 
-## 建立 minecraft server
+## 需安裝模組(懶人包)
 
-普遍建議作法，也是比較硬核的方案。
+- [Google 雲端](https://drive.google.com/drive/folders/163F8mPe96L3Nh8qENsSoLj848zZkI4T8?usp=sharing)
 
-## 使用巴友方案：Fastinstaller
+## 使用搖桿模組
 
-沒有提供原始碼，感覺有點抖。
+搖桿模組不能與光追模組並存，所以要取捨。
 
-## 使用巴友方案：魷魚懶人包
+### 使用搖桿模式，放棄光追
 
-沒有提供原始碼，需自行評估一下。
+- 安裝：[controllable-forge-1.20.1-0.20.3](https://www.curseforge.com/minecraft/mc-mods/controllable/files/4598985)
+- 放棄：[preview_OptiFine_1.20.1_HD_U_I6_pre6](https://optifine.net/downloads)
 
-- 參考
-    - https://forum.gamer.com.tw/C.php?bsn=18673&snA=183653&tnum=69&subbsn=11
+### 使用光追，放棄搖桿模式
 
-## 使用 Docker 架設
-
-[docker-minecraft-server](https://github.com/itzg/docker-minecraft-server)
-
-支援模組。
-
-適用於 Linux 環境架設，就是如果你有一台專門的伺服器主機，就可以用這方案。
-
-- 參考
-    - https://github.com/itzg/docker-minecraft-server
-
-# 使玩家加入至區域網段
-
----
-
-## 使用社區對外 IP
-
-很看網路公司，我的公司就設定 DDNS 給我，但我不是很熟 DDNS 的設定。
-
-很吃網路架設的觀念。
-
-## 使用 VPN
-
-很看網路設備，如果家中網路設備沒有支援，就只能找其他廠商的方案，也有點像是要用傳統 Hamachi 的做法。
-
-## 使用 ****ZeroTier****
-
-比較新一套的軟體，是款開源的軟體。
-
-### 參考資料
-
-[Minecraft Java版局域網多人連線教學，使用ZeroTier區域連線，正版盜版皆可](https://www.youtube.com/watch?v=YX9x5wKn-R0)
-
-[ZeroTier, Inc.](https://github.com/zerotier)
-
-## 使用 Hamachi
-
-很久沒有更新網站了，Copyright的日期都沒有更新，也沒有提供軟體版號，更沒有提供更新日誌，感覺會有資安問題。
-
-## 使用 DDNS
-
-就針對浮動 IP 的解決方案，只要透過自定義的域名，就可以連上。
-
-不過前提是，我的對外 IP 要是真實的，而且可以連上。
-
-[超詳細解說！域名是什麼？浮動 IP 有解方？如何利用 noip 架設伺服器？伺服器架設教學《CC字幕》](https://www.youtube.com/watch?v=TgMkvKSO0mI)
+- 放棄：[controllable-forge-1.20.1-0.20.3](https://www.curseforge.com/minecraft/mc-mods/controllable/files/4598985)
+- 安裝：[preview_OptiFine_1.20.1_HD_U_I6_pre6](https://optifine.net/downloads)
+  

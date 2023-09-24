@@ -16,7 +16,7 @@ style = "github-dark"
   info = "「為甚麼想睡覺？」因為我熬夜做了這個 Blog 💤"
   description = "這個是詩邁的個人網站✨"
   keywords = "blog,developer,personal"
-  avatarurl = "images/avatar.png"
+  avatarurl = "avatar.png"
   #gravatar = "john.doe@example.com"
 
   faviconSVG = "/img/favicon.svg"

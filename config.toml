@@ -58,10 +58,21 @@ style = "github-dark"
   weight = 1
   url  = "tech/"
 [[menu.main]]
-  name = "生活"
+  name = "旅行"
   weight = 2
-  url = "life/"
+  url  = "trip/"
+[[menu.main]]
+  name = "電影"
+  weight = 3
+  url  = "movie/"
 [[menu.main]]
   name = "電玩"
-  weight = 3
+  weight = 4
   url = "video_game/"
+[[menu.main]]
+  name = "信仰"
+  weight = 5
+  url = "faith/"
+
+
+

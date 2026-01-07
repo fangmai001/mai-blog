@@ -1,1 +1,1 @@
-hugo server --bind=192.168.68.102 --baseURL=http://192.168.68.102:131
+hugo server --bind=192.168.68.108 --baseURL=http://192.168.68.108:1313
